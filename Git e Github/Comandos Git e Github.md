@@ -22,6 +22,8 @@ Botão do meio do mouse - cola o que está copiado no CTRL+C
     Exemplo
         rm -rf workspace (flag -rf)
 **pwd** - Mostra caminho em que está
+**mv** - Move pastas
+    mv teste.md ./pasta/
 
 ## Primeira vez utilizando Git
 
@@ -41,3 +43,4 @@ Deve ser feito configuração, fornecer e-mail e nick de autor (**Para facilitar
     git add . - Adiciona tudo que tem na pasta
 **git commit -m** - Dá significado a todos os arquivos e modificações, juntamente colocando mensagem do que foi criado e/ou modificado
     git commit -m "mensagem" (-m é uma flag do git)
+**git status** - Mostra os status dos arquivos, se está Untracked, Unmodiefied, Modiefied e Staged
