@@ -63,6 +63,9 @@ Deve ser feito configuração, fornecer e-mail e nick de autor (**Para facilitar
         git remote add origin link_do_repositório_pego_no_GitHub
     Listar repositórios cadastrados:
         git remote -v
+**git push** - Insere no Github e repositório 
+    ComandoPush
+        git push origin master -  (master, pois deixei padrão assim)
 
 
 ## Colocar repositório local no remoto (Push)
@@ -72,3 +75,5 @@ Comando:
     git remote add origin link_do_repositório_pego_no_GitHub
 Listar repositórios cadastrados:
     git remote -v
+Inserir no Github (Push)
+    git push origin master
