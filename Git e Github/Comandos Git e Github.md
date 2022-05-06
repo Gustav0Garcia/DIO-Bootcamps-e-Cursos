@@ -29,8 +29,8 @@ Botão do meio do mouse - cola o que está copiado no CTRL+C
 ## Primeira vez utilizando Git
 
 Deve ser feito configuração, fornecer e-mail e nick de autor (**Para facilitar, utilizar o mesmo do cadastro do GitHub**)
-    git config --global user.email "*email*" (aqui foi ensinado usando "")
-    git config --global user.name *name* (aqui utilizou sem "")
+    git config --global user.email "email"
+    git config --global user.name "name" 
 
 ## Comandos Git
 
@@ -45,3 +45,15 @@ Deve ser feito configuração, fornecer e-mail e nick de autor (**Para facilitar
 **git commit -m** - Dá significado a todos os arquivos e modificações, juntamente colocando mensagem do que foi criado e/ou modificado
     git commit -m "mensagem" (-m é uma flag do git)
 **git status** - Mostra os status dos arquivos, se está Untracked, Unmodiefied, Modiefied e Staged
+**git config --list** - exibe listagem de todas as configurações do Git
+    Caso queira alterar algo
+        git config --global --unset *o_que_quer_alterar* (comando irá retirar as informações, deve ser inserida as novas informações depois)    
+            Exemplo de alterar e-mail e name
+                Retirar as informações
+                git config --global --unset user.email
+                git config --global --unset user.name
+
+                Inserir as informações
+                git config --global user.email "email"
+                git config --global user.name "name"
+    Commits já feitos no e-mail e autor anterior, não há como modificar, mas não irá causar prejuízo.
