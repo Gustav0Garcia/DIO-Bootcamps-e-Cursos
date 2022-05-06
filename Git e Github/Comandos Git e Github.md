@@ -18,6 +18,7 @@ Botão do meio do mouse - cola o que está copiado no CTRL+C
     Exemplo
         echo Hello World
         echo hello > hello.txt - Verifica se consta algum arquivo com este nome, se não existir, ele ira criar
+        echo > README.md - Cria arquivo
 **rm** - deleta diretório
     Exemplo
         rm -rf workspace (flag -rf)
@@ -37,7 +38,7 @@ Deve ser feito configuração, fornecer e-mail e nick de autor (**Para facilitar
     git clone caminho_ssh_do_repositório_no_github  - (caso já esteja configurado chave SSH, ou utilizar HTTPL)
         Na primeira vez que estiver utilizando, irá pedir autorização (fingerprint)
 **git init** - Inicia o Git
-**git add** - Adiciona o que consta na pasta
+**git add** - Adiciona o que consta na pasta (tanto criação de arquivos, quanto modificações)
     git add teste.txt
     git add * - Adiciona tudo que tem na pasta
     git add . - Adiciona tudo que tem na pasta
