@@ -57,3 +57,18 @@ Deve ser feito configuração, fornecer e-mail e nick de autor (**Para facilitar
                 git config --global user.email "email"
                 git config --global user.name "name"
     Commits já feitos no e-mail e autor anterior, não há como modificar, mas não irá causar prejuízo.
+**git remote** - Colocar repositório local no remoto
+    Deve criar o repositório no GitHub e copiar o caminho HTTPS para inserir (push) no Git
+    Comando:
+        git remote add origin link_do_repositório_pego_no_GitHub
+    Listar repositórios cadastrados:
+        git remote -v
+
+
+## Colocar repositório local no remoto (Push)
+
+Deve criar o repositório no GitHub e copiar o caminho HTTPS para inserir (push) no Git
+Comando:
+    git remote add origin link_do_repositório_pego_no_GitHub
+Listar repositórios cadastrados:
+    git remote -v
