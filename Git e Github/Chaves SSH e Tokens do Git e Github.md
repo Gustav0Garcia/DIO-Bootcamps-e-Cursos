@@ -1,18 +1,18 @@
-## Chave SSH
+# Chave SSH
 
-# Criar a chave
-    Inserir comando para gerar a chave:
+## Criar a chave passos:
+    1. Inserir comando para gerar a chave:
         ssh-keygen -t ed25519 -C email
-    Criar a senha
-    Ir até o diretório que foi criado a chave
-    Visualizar conteúdo da chave:
+    2. Criar a senha
+    3. Ir até o diretório que foi criado a chave
+    4. Visualizar conteúdo da chave:
         cat id_ed25519.pub
-    Copiar conteúdo e inserir no Github
-    Inserir comando para criar agente:
+    5. Copiar conteúdo e inserir no Github
+    6. Inserir comando para criar agente:
         eval $(ssh-agent -s)
-    "Entregar" a chave **Privada** para o agente (dentro da pasta em que foram geradas as chaves fica mais fácil):
+    7. "Entregar" a chave **Privada** para o agente (dentro da pasta em que foram geradas as chaves fica mais fácil):
         ssh-add id_ed25519
-    Entrar com a senha
+    8. Entrar com a senha
 
 
 ## Chave Token

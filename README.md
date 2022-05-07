@@ -1,5 +1,5 @@
-## Repositório de anotações do Bootcamp que estou fazendo da DIO
+# Repositório de anotações do Bootcamp que estou fazendo da DIO
 
-#Anotações feitas:
+## Anotações feitas:
 * Git e Github
-* 
+
