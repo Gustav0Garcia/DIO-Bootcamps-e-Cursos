@@ -1,5 +1,7 @@
 # **Tópicos fundamentais para entender o funcionamento do Git**
 
+&nbsp;
+
 ## **SHA1**
 
 A sigla **SHA** significa *Secure Hash Algorithm* (Algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas pela **NSA** (Agência de Seguraça Nacional dos EUA).
@@ -10,7 +12,11 @@ Exemplo no terminal:
 
     openssl sha1 texto.txt
 
+&nbsp;
+
 ## **Objetos Internos do Git**
+
+&nbsp;
 
 **Blob** - Arquivos ficam guardados dentro do blob, e nele contem metadados.
 
@@ -36,6 +42,10 @@ Exemplo no terminal:
     Aumenta credibilidade de que não houve alterações maliciosas de forma externa.
     É único para cada Autor
 
+&nbsp;
+
 ## **Sistema Distribuido Seguro**
+
+&nbsp;
 
 É a versão remota mais recente, mais atualizado do seu código e com diversas pessoas contribuindo e tendo o seu código em suas máquinas.

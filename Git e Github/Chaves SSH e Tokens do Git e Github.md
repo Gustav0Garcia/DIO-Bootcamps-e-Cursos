@@ -1,6 +1,11 @@
-# Chave SSH
+# **Chave SSH**
 
-## Criar a chave passos:
+&nbsp;
+
+## **Criar a chave passos**
+
+&nbsp;
+
     1. Inserir comando para gerar a chave:
         ssh-keygen -t ed25519 -C email
     2. Criar a senha
@@ -14,8 +19,12 @@
         ssh-add id_ed25519
     8. Entrar com a senha
 
+&nbsp;
 
-## Chave Token
+## **Chave Token**
+
+&nbsp;
+
     Gerado no Github
     Deve ser anotada e guardada no pc, pois não tera como visualizar novamente depois de criada
     Tem vida útil, posterior, deve ser criada nova chave

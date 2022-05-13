@@ -1,12 +1,12 @@
 # Comandos básicos de Navegação no Windows 
 
-TAB - Tem função de autocompletar
+&nbsp;
 
-Seta para cima - Navega pelo histórico do que foi digitado no terminal
+**TAB** - Tem função de autocompletar
 
-Botão do meio do mouse - Cola o que está copiado no CTRL+C
+**Seta para cima** - Navega pelo histórico do que foi digitado no terminal
 
-
+**Botão do meio do mouse** - Cola o que está copiado no CTRL+C
 
 **dir** - Lista tudo que consta na pasta que você está
 
@@ -37,13 +37,17 @@ Botão do meio do mouse - Cola o que está copiado no CTRL+C
     Exemplo
         rmdir workspace /s /q (flags /s e /q)
 
-# Comandos básicos de Navegação no Linux
+&nbsp;
 
-TAB - Tem função de autocompletar
+## **Comandos básicos de Navegação no Linux**
 
-Seta para cima - Navega pelo histórico do que foi digitado no terminal
+&nbsp;
 
-Botão do meio do mouse - Cola o que está copiado no CTRL+C
+**TAB** - Tem função de autocompletar
+
+**Seta para cima** - Navega pelo histórico do que foi digitado no terminal
+
+**Botão do meio do mouse** - Cola o que está copiado no CTRL+C
 
 
 **ls** - Lista tudo que consta na pasta que você está

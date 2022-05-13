@@ -1,10 +1,12 @@
 # **Comandos básicos de Navegação** 
 
-TAB - Tem função de autocompletar
+&nbsp;
 
-Seta para cima - Navega pelo histórico do que foi digitado no terminal
+**TAB** - Tem função de autocompletar
 
-Botão do meio do mouse - Cola o que está copiado no CTRL+C
+**Seta para cima** - Navega pelo histórico do que foi digitado no terminal
+
+**Botão do meio do mouse** - Cola o que está copiado no CTRL+C
 
 **ls** - Lista tudo que consta na pasta que você está
 
@@ -39,14 +41,22 @@ Botão do meio do mouse - Cola o que está copiado no CTRL+C
 
     mv teste.md ./pasta/
 
+&nbsp;
+
 ## **Primeira vez utilizando Git**
+
+&nbsp;
 
 Deve ser feito configuração, fornecer e-mail e nick de autor (**Para facilitar, utilizar o mesmo do cadastro do GitHub**)
 
     git config --global user.email "email"
     git config --global user.name "name" 
 
+&nbsp;
+
 ## **Comandos Git**
+
+&nbsp;
 
 **git clone** - Copia repositório
 
@@ -97,7 +107,11 @@ Deve ser feito configuração, fornecer e-mail e nick de autor (**Para facilitar
 
     git push origin master -  (master, pois deixei padrão assim)
 
+&nbsp;
+
 ## **Colocar repositório local no remoto (Push)**
+
+&nbsp;
 
 Deve criar o repositório no GitHub e copiar o caminho HTTPS para inserir (push) no Git
 
